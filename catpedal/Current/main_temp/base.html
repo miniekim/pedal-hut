@@ -7,14 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="stylesheet" href='{% static "css/lib/bootstrap.min.css" %}'>
+    <title>{% block title %}Minnie world{% endblock %}</title>
+    <!-- <title /> -->
+    <!-- <link rel="stylesheet" href='{% static "css/lib/bootstrap.min.css" %}'>
     <link rel="stylesheet" href='{% static "css/base.css" %}'>
-    <link rel="stylesheet" href='{% static "css/all.min.css" %}'>
-    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link rel="stylesheet" href='{% static "css/all.min.css" %}'> -->
 </head>
 <body>
   {% block body %}{% endblock %}
-  <script src='{% static "js/lib/bootstrap.min.js" %}'></script>
-  <script src='{% static "js/all.min.js" %}'></script>
+  <div> base </div>
+  <!-- <script src='{% static "js/lib/bootstrap.min.js" %}'></script>
+  <script src='{% static "js/all.min.js" %}'></script> -->
 </body>
 </html>
